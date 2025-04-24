@@ -8,9 +8,6 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-    "resolutions": {
-    "react": "^18.0.0"
-  },
   "dependencies": {
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
