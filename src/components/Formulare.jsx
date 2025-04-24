@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './formulare.css';
+import './Formulare.css';
 
 const Formulare = ({ setJsonData }) => {
     const [formData, setFormData] = useState({
