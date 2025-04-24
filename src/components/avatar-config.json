@@ -1,0 +1,29 @@
+{
+  "modelPath": "/models/Mar_Coach.glb",
+  "idleAnimationPath": "/animations/Standing_Idle.fbx",
+  "introAnimationPath": "/animations/Introduction.fbx",
+  "greetingAnimationPath": "/animations/Greeting.fbx",
+  "talkingAnimationPaths": [
+    "/animations/Talking.fbx",
+    "/animations/Talking_2.fbx",
+    "/animations/Talking_3.fbx"
+  ],
+  "talkingAnimationNames": ["Chat_1", "Chat_2", "Chat_3"],
+  "audioFiles": {
+    "intro": "/audios/Introduce.mp3",
+    "thank": "/audios/Thank.mp3",
+    "talking_1": "/audios/Talking.mp3",
+    "talking_2": "/audios/Talking_2.mp3",
+    "talking_3": "/audios/Talking_3.mp3",
+    "talking_4": "/audios/Talking_4.mp3",
+    "talking_5": "/audios/Talking_5.mp3"
+  },
+  "animationTriggers": [
+    { "key": "i", "action": "Intro" },
+    { "key": "g", "action": "Greet" },
+    { "key": "t", "action": "Talk_Random" },
+    { "key": "1", "action": "Chat_1" },
+    { "key": "2", "action": "Chat_2" },
+    { "key": "3", "action": "Chat_3" }
+  ]
+}

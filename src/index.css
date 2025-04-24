@@ -1,0 +1,27 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+/* Leva UI custom styles */
+.leva-c-Panel {
+  background-color: #1f2937 !important;
+  color: white !important;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.leva-c-Button {
+  background-color: #3b82f6 !important;
+  color: white !important;
+  border: none;
+}
+
+.leva-c-Label {
+  color: #111827 !important;
+}
